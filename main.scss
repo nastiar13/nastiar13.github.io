@@ -1,5 +1,8 @@
-body {
-    height: 2000px;
+// body {
+//     height: 2000px;
+// }
+section,footer {
+    padding: 20px 0;
 }
 
 .slider {
@@ -13,7 +16,7 @@ body {
     .parallax {
     
         filter: grayscale(50);
-        opacity: .77;
+        opacity: .57;
     }
 }
 
@@ -28,4 +31,9 @@ body {
         
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
     }
+}
+
+.services .card-panel {
+    height: 300px;
+    overflow: hidden;
 }
