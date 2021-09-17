@@ -1,4 +1,30 @@
+body {
+  height: 2000px;
+}
+
 .slider h3 {
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.6);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.parallax-container {
+  height: 20%;
+}
+
+.parallax-container .parallax {
+  -webkit-filter: grayscale(50);
+          filter: grayscale(50);
+  opacity: .77;
+}
+
+.clients img {
+  margin-top: 10px;
+  max-width: 160px;
+  max-height: 40px;
+  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
+          filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
+}
+
+.clients h3 {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 /*# sourceMappingURL=main.css.map */
